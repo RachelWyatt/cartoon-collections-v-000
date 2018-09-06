@@ -13,7 +13,7 @@ def long_planeteer_calls(call_array)
   call_array.any? {|word| word.length < 4}
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(string_array)#
+  string_array.include? (cheese_types)
   cheese_types = ["cheddar", "gouda", "camembert"]
 end

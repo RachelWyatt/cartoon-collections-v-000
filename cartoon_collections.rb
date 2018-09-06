@@ -18,6 +18,6 @@ def find_the_cheese(string_array)#
   if string_array.include?("cheddar") || ("gouda")
     return "cheddar"
   else
-    return nil
+    return "nil"
   end
 end

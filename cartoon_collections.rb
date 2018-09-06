@@ -5,13 +5,12 @@ def roll_call_dwarves(dwarf_names)
   end
 end
 
-def summon_captain_planet(veggies)# code an argument here
-  #veggies.collect {|x| x.upcase + "!"}
+def summon_captain_planet(veggies)
   veggies.map {|x| x.capitalize + "!"}
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(call_array)
+  call_array.each {|call| call.all? < 4}
 end
 
 def find_the_cheese# code an argument here

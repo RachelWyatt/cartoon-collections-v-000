@@ -10,7 +10,7 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(call_array)
-  call_array.all? <4
+  call_array.all? < 4
 end
 
 def find_the_cheese# code an argument here

@@ -13,11 +13,11 @@ def long_planeteer_calls(call_array)
   call_array.any? {|word| word.length < 4}
 end
 
-def find_the_cheese(string_array)#
+def find_the_cheese(string_array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if string_array.include?("cheddar")
     return "#{"cheddar"}"
-  elsif string_array.none?("cheddar") || ("gouda")
+  elsif string_array.none?("cheddar")
     return nil
   end
 end
